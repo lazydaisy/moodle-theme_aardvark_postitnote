@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die;
 
 $plugin->version   = 2016121200; // The current module version (Date: YYYYMMDDXX)
-$plugin->requires  = 2016120800; // Requires this Moodle version
+$plugin->requires  = 2016120500; // Requires this Moodle version
 $plugin->component = 'theme_aardvark_postitnote'; // Full name of the plugin (used for diagnostics)
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->release   = 'Postit Note (Build: 2016121200)';
