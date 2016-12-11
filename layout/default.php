@@ -71,14 +71,22 @@ echo $OUTPUT->doctype() ?>
             <a href="<?php echo $CFG->wwwroot; ?>"><img src="<?php echo $OUTPUT->pix_url('menu/home_icon', 'theme')?>"></a>
         </div>
 
-        <?php if ($hascustommenu) { ?>
+        <?php
+    if ($hascustommenu) { ?>
         <div id="menuitemswrap">
-        <div id="custommenu"><?php echo $custommenu; ?></div>
+        <div id="custommenu"><?php
+
+        if (!isloggedin()) {
+            echo $custommenu;
+        } else {
+            echo $OUTPUT->custom_menu();
+        } ?>
+
         </div>
-        <?php } ?>
+        </div>
+        <?php
+    } ?>
     </div>
-
-
 </div>
 
 <?php if ($hasnavbar) { ?>
