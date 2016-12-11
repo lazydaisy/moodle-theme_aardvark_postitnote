@@ -1,0 +1,53 @@
+<?php
+$string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot">
+<h2>Aardvark Post-IT 2.3</h2>
+<img src="aardvark_postit/pix/screenshot.jpg" />
+<h2>About</h2>
+<p>Aardvark Postit Note is a modified three column fluid-width theme for Moodle 2.3.0 by Mary Evans, based on Aardvark Post-IT.</p>
+<h2>Tweaks</h2>
+<p>If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customised theme from being overwritten by future Moodle upgrades, and you\'ll still have the original files if you make a mess. More information on modifying themes can be found in the <a href="http://docs.moodle.org/en/Theme">MoodleDocs</a>.</p>';
+
+$string['bgposition'] = 'Graphicwrap Background Position';
+$string['bgpositiondesc'] = 'Choose between no-repeat, repeat, repeat-x, repeat-y.';
+$string['repeat'] = 'Repeat (Tiled)';
+$string['no-repeat'] = 'No-Repeat (Static)';
+$string['repeat-x'] = 'Repeat-X (Horizontal)';
+$string['repeat-y'] = 'Repeat-Y (Vertical)';
+
+$string['configtitle'] = 'Aardvark Postit Note Settings';
+$string['courses'] = 'Courses';
+$string['customcss'] = 'Custom CSS';
+$string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
+
+$string['email'] = 'Email';
+$string['emailurl'] = 'Email URL';
+$string['emailurldesc'] = 'Enter the URL of your email service. (i.e http://mail.mycollege.ac.uk or http://www.mycollege.edu/mail)';
+
+$string['footnote'] = 'Footnote';
+$string['footnotedesc'] = 'The content from this textarea will be displayed in the footer of every page.';
+$string['footnotetxt'] = 'Aardvark Postit Note by Mary Evans<br />is a modified version of Aardvark Post-IT for Moodle 2.3.0';
+
+$string['graphicwrap'] = 'Background Image';
+$string['graphicwrapdesc'] = 'Change the background image in the graphic wrap. Paste URL of the image you want to use in here. Please note the graphic isn\'t repeated and is centred so be careful with your design. ';
+
+$string['logo'] = 'Logo';
+$string['logodesc'] = 'Change the logo of this theme by entering the URL to a new one (i.e., http://www.somesite/logo.png). As a reference, the default logo is 272px by 72px. A transparent .png will work best.';
+
+$string['menuhovercolor'] = 'Menu Hover Colour';
+$string['menuhovercolordesc'] = 'Change the colour of linked items on the menu bar.';
+$string['myaccount'] = 'My Account';
+$string['myblocks'] = 'My Blocks';
+$string['mycourses'] = 'My Courses';
+$string['mystuff'] = 'My Stuff';
+
+$string['pluginname'] = 'Aardvark Postit Note';
+$string['postitnote1'] = 'Postit note(left)';
+$string['postitnote2'] = 'Postit note(middle)';
+$string['postitnote3'] = 'Postit note(right)';
+$string['postitnotedesc'] = 'The contents from this textarea will be displayed in the postit-note  on every page where the drop-down profileblock is visible.';
+$string['postitnotetxt'] = 'Aardvark Postit Note<br />by Mary Evans<br />is a modified version<br />of the original<br />Aardvark Post-IT';
+$string['profilebarbg'] = 'Profile Bar Background';
+$string['profilebarbgdesc'] = 'Change the background image in the profile bar. It\'s currently an opaque png image which is set to repeat, so your image needs to be similar in that it should ideally be a 100px by 100px png semi-transparent image, or a solid color if you prefer that. Just paste the URL of the image you want to use in here. Please note the graphic is repeated so be careful with your design.';
+
+$string['region-side-post'] = 'Right';
+$string['region-side-pre'] = 'Left';
