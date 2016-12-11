@@ -30,3 +30,7 @@ $plugin->requires  = 2016120800; // Requires this Moodle version
 $plugin->component = 'theme_aardvark_postitnote'; // Full name of the plugin (used for diagnostics)
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->release   = 'Postit Note (Build: 2016121200)';
+$plugin->dependencies = array(
+    'theme_base'  => 2016051900,
+    'theme_canvas' => 2016052300,
+);
